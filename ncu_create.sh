@@ -1,0 +1,1 @@
+ ncu --target-processes all --set full -o final_all python new-files/pycuda_combined_new.py 

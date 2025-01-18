@@ -1,0 +1,7 @@
+==PROF== Connected to process 3893 (/usr/bin/python3.8)
+==PROF== Profiling "grayscale" - 0: 0%....50%....100% - 9 passes
+==PROF== Profiling "gaussianBlur" - 1: 0%....50%....100% - 9 passes
+==PROF== Profiling "intensityGradient" - 2: 0%....50%....100% - 9 passes
+==PROF== Profiling "hysteresis" - 3: 0%....50%....100% - 9 passes
+==PROF== Disconnected from process 3893
+==PROF== Report: /home/jl6962/canny-edge-detection/metrics.ncu-rep

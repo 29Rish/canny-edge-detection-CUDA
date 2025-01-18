@@ -1,0 +1,139 @@
+==2652== NVPROF is profiling process 2652, command: python compare_with_cv2.py
+compare_with_cv2.py:75: UserWarning: The CUDA compiler succeeded, but said the following:
+kernel.cu:3: warning: "M_PI" redefined
+    3 | #define M_PI 3.141592f
+      | 
+In file included from /usr/include/c++/9/cmath:45,
+                 from /usr/include/c++/9/math.h:36,
+                 from /usr/local/cuda-12.6/bin/../targets/x86_64-linux/include/crt/math_functions.h:4571,
+                 from /usr/local/cuda-12.6/bin/../targets/x86_64-linux/include/crt/common_functions.h:303,
+                 from /usr/local/cuda-12.6/bin/../targets/x86_64-linux/include/cuda_runtime.h:117,
+                 from <command-line>:
+/usr/include/math.h:1070: note: this is the location of the previous definition
+ 1070 | # define M_PI  3.14159265358979323846 /* pi */
+      | 
+
+  mod = SourceModule(cuda_code)
+Processing: images/ILSVRC2017_test_00000012.JPEG
+Processing: images/ILSVRC2017_test_00000036.JPEG
+Processing: images/ILSVRC2017_test_00000054.JPEG
+Processing: images/ILSVRC2017_test_00000060.JPEG
+Processing: images/ILSVRC2017_test_00000003.JPEG
+Processing: images/ILSVRC2017_test_00000027.JPEG
+Processing: images/ILSVRC2017_test_00000063.JPEG
+Processing: images/ILSVRC2017_test_00000014.JPEG
+Processing: images/ILSVRC2017_test_00000046.JPEG
+Processing: images/ILSVRC2017_test_00000074.JPEG
+Processing: images/ILSVRC2017_test_00000073.JPEG
+Processing: images/ILSVRC2017_test_00000050.JPEG
+Processing: images/ILSVRC2017_test_00000009.JPEG
+Processing: images/ILSVRC2017_test_00000033.JPEG
+Processing: images/ILSVRC2017_test_00000042.JPEG
+Processing: images/ILSVRC2017_test_00000071.JPEG
+Processing: images/ILSVRC2017_test_00000055.JPEG
+Processing: images/ILSVRC2017_test_00000032.JPEG
+Processing: images/ILSVRC2017_test_00000007.JPEG
+Processing: images/ILSVRC2017_test_00000066.JPEG
+Processing: images/ILSVRC2017_test_00000064.JPEG
+Processing: images/ILSVRC2017_test_00000072.JPEG
+Processing: images/ILSVRC2017_test_00000023.JPEG
+Processing: images/ILSVRC2017_test_00000076.JPEG
+Processing: images/ILSVRC2017_test_00000025.JPEG
+Processing: images/ILSVRC2017_test_00000024.JPEG
+Processing: images/ILSVRC2017_test_00000026.JPEG
+Processing: images/ILSVRC2017_test_00000037.JPEG
+Processing: images/ILSVRC2017_test_00000039.JPEG
+Processing: images/ILSVRC2017_test_00000080.JPEG
+Processing: images/ILSVRC2017_test_00000040.JPEG
+Processing: images/ILSVRC2017_test_00000043.JPEG
+Processing: images/ILSVRC2017_test_00000053.JPEG
+Processing: images/ILSVRC2017_test_00000022.JPEG
+Processing: images/ILSVRC2017_test_00000058.JPEG
+Processing: images/ILSVRC2017_test_00000017.JPEG
+Processing: images/ILSVRC2017_test_00000011.JPEG
+Processing: images/ILSVRC2017_test_00000013.JPEG
+Processing: images/ILSVRC2017_test_00000052.JPEG
+Processing: images/ILSVRC2017_test_00000047.JPEG
+Processing: images/ILSVRC2017_test_00000038.JPEG
+Processing: images/ILSVRC2017_test_00000079.JPEG
+Processing: images/ILSVRC2017_test_00000005.JPEG
+Processing: images/ILSVRC2017_test_00000069.JPEG
+Processing: images/ILSVRC2017_test_00000016.JPEG
+Processing: images/ILSVRC2017_test_00000061.JPEG
+Processing: images/ILSVRC2017_test_00000029.JPEG
+Processing: images/ILSVRC2017_test_00000062.JPEG
+Processing: images/ILSVRC2017_test_00000028.JPEG
+Processing: images/ILSVRC2017_test_00000045.JPEG
+Processing: images/ILSVRC2017_test_00000035.JPEG
+Processing: images/ILSVRC2017_test_00000049.JPEG
+Processing: images/ILSVRC2017_test_00000010.JPEG
+Processing: images/ILSVRC2017_test_00000002.JPEG
+Processing: images/ILSVRC2017_test_00000015.JPEG
+Processing: images/ILSVRC2017_test_00000041.JPEG
+Processing: images/ILSVRC2017_test_00000067.JPEG
+Processing: images/ILSVRC2017_test_00000006.JPEG
+Processing: images/ILSVRC2017_test_00000048.JPEG
+Processing: images/ILSVRC2017_test_00000051.JPEG
+Processing: images/ILSVRC2017_test_00000008.JPEG
+Processing: images/ILSVRC2017_test_00000056.JPEG
+Processing: images/ILSVRC2017_test_00000019.JPEG
+Processing: images/ILSVRC2017_test_00000034.JPEG
+Processing: images/ILSVRC2017_test_00000068.JPEG
+Processing: images/ILSVRC2017_test_00000044.JPEG
+Processing: images/ILSVRC2017_test_00000031.JPEG
+Processing: images/ILSVRC2017_test_00000075.JPEG
+Processing: images/ILSVRC2017_test_00000004.JPEG
+Processing: images/ILSVRC2017_test_00000021.JPEG
+Processing: images/ILSVRC2017_test_00000018.JPEG
+Processing: images/ILSVRC2017_test_00000078.JPEG
+Processing: images/ILSVRC2017_test_00000077.JPEG
+Processing: images/ILSVRC2017_test_00000030.JPEG
+Processing: images/ILSVRC2017_test_00000070.JPEG
+Processing: images/ILSVRC2017_test_00000059.JPEG
+Processing: images/ILSVRC2017_test_00000065.JPEG
+Processing: images/ILSVRC2017_test_00000020.JPEG
+Processing: images/ILSVRC2017_test_00000001.JPEG
+Processing: images/ILSVRC2017_test_00000057.JPEG
+Average CUDA time: 0.0001s
+Average OpenCV time: 0.0003s
+==2652== Profiling application: python compare_with_cv2.py
+==2652== Profiling result:
+            Type  Time(%)      Time     Calls       Avg       Min       Max  Name
+ GPU activities:   45.17%  3.7072ms        81  45.768us     672ns  63.424us  [CUDA memcpy HtoD]
+                   30.32%  2.4888ms        80  31.110us  17.247us  44.831us  gaussianBlur
+                   15.17%  1.2449ms        80  15.561us  8.5130us  20.864us  [CUDA memcpy DtoH]
+                    9.34%  766.94us        80  9.5860us  6.0480us  13.216us  rgb2gray
+      API calls:   64.21%  297.07ms         1  297.07ms  297.07ms  297.07ms  cuCtxCreate
+                   25.50%  117.96ms         1  117.96ms  117.96ms  117.96ms  cuCtxDetach
+                    3.02%  13.972ms       240  58.215us  4.6970us  197.06us  cuMemFree
+                    2.24%  10.341ms       240  43.087us  2.1480us  190.07us  cuMemAlloc
+                    2.05%  9.4755ms        81  116.98us  50.542us  185.36us  cuMemcpyHtoD
+                    1.07%  4.9293ms        80  61.616us  41.948us  87.190us  cuMemcpyDtoH
+                    0.81%  3.7375ms        80  46.718us  25.984us  64.373us  cuCtxSynchronize
+                    0.58%  2.6814ms        80  33.517us  20.409us  47.098us  cuStreamSynchronize
+                    0.36%  1.6621ms       160  10.388us  4.4620us  58.547us  cuLaunchKernel
+                    0.10%  459.70us         1  459.70us  459.70us  459.70us  cuModuleLoadDataEx
+                    0.03%  148.70us         1  148.70us  148.70us  148.70us  cuModuleUnload
+                    0.02%  82.010us       160     512ns     199ns  13.853us  cuFuncSetBlockShape
+                    0.01%  54.832us         1  54.832us  54.832us  54.832us  cuStreamCreate
+                    0.01%  34.126us         1  34.126us  34.126us  34.126us  cuStreamDestroy
+                    0.00%  9.4470us         2  4.7230us     268ns  9.1790us  cuCtxGetDevice
+                    0.00%  7.4470us         1  7.4470us  7.4470us  7.4470us  cuDeviceGetPCIBusId
+                    0.00%  2.6900us         3     896ns     104ns  1.3120us  cuDeviceGetCount
+                    0.00%  1.6990us         2     849ns     217ns  1.4820us  cuCtxPushCurrent
+                    0.00%  1.5220us         1  1.5220us  1.5220us  1.5220us  cuModuleGetGlobal
+                    0.00%  1.4770us         2     738ns     294ns  1.1830us  cuCtxPopCurrent
+                    0.00%  1.4260us         3     475ns     134ns  1.1350us  cuDeviceGetAttribute
+                    0.00%  1.2790us         2     639ns     283ns     996ns  cuModuleGetFunction
+                    0.00%     782ns         1     782ns     782ns     782ns  cuDeviceComputeCapability
+                    0.00%     627ns         2     313ns     290ns     337ns  cuDeviceGet
+
+
+
+(cuda_cl) jl6962@instance-20241023-225608:~/e4750-2024fall-project-jlry$ python compare_with_cv2.py 
+Resolution 128x128 -> CUDA: 0.0014s, OpenCV: 0.0008s
+Resolution 256x256 -> CUDA: 0.0018s, OpenCV: 0.0016s
+Resolution 320x320 -> CUDA: 0.0019s, OpenCV: 0.0022s
+Resolution 512x512 -> CUDA: 0.0032s, OpenCV: 0.0069s
+Resolution 640x640 -> CUDA: 0.0068s, OpenCV: 0.0107s
+Resolution 1024x1024 -> CUDA: 0.0136s, OpenCV: 0.0182s
